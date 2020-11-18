@@ -1,0 +1,109 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+form input {
+  border: 2px solid #aaa;
+  color: #333;
+  font-size: 14px;
+  font-family: Lato;
+  padding: 10px 15px;
+  height: 40px;
+  width: 300px;
+max-width: 100%;
+}
+
+form button {
+  border: 1px solid #aaa;
+  background-color: #aaa;
+  color: #fff;
+  padding: 0 12px;
+  height: 40px;
+}
+
+form button:focus {
+  outline: none;
+}
+
+form button:active {
+  opacity: 0.7;
+}
+#app {
+  width: 100%;
+  max-width: 768px;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color:black;
+}
+
+body {
+  background-color:black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Lato;
+  margin-bottom: 100px;
+}
+
+.popimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.modelbody{
+  background-color: rgb(59, 113, 212);
+}
+  
+
+
+
+
+.image{
+  border: solid;
+  border-width:50px;
+  border-color:white;
+  width: 80%;
+  height: 80%;
+  
+
+  
+}
+
+
+
+.movie-card-container {
+    background-color:rgb(179, 169, 169);
+    border-radius: 10px;
+ 
+
+    display: flex;
+    min-height: 420px;
+    margin: 0 auto 50px;
+}
+
+.movie-card-container {
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    -webkit-box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+        0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -7px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+        0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -7px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    min-height: 420px;
+    margin: 0 auto 50px;
+}
+
